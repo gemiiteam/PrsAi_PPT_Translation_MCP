@@ -1,5 +1,6 @@
 # PrsAiPPT-MCP
-![gemii](https://github.com/user-attachments/assets/b6a22f28-a53b-4874-9f20-9da218671ab9)
+<img width="1692" height="407" alt="景栗科技 logo" src="https://github.com/user-attachments/assets/5ca675a0-6a27-48e6-b7b3-64eea5b7867f" />
+
 
 这是一个基于 Python `mcp` SDK (`FastMCP`) 开发的 MCP Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。
 官网地址：https://www.prsai.cc/

@@ -1,4 +1,4 @@
-# PrsAi_PPT_Translation_MCP
+# My Python MCP
 
 这是一个基于 Python `mcp` SDK (`FastMCP`) 的脚手架项目，可以作为你开发新的 MCP Server 的起点。
 
@@ -57,4 +57,3 @@ python -m my_python_mcp
 ```
 
 > **注意**: 请确保替换上述的路径为本项目的绝对路径。
-

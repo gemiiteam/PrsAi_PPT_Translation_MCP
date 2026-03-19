@@ -82,7 +82,7 @@ VERIFICATION_CODE=你的API_KEY uv run mcp dev src/prs_ai_ppt_mcp/server.py
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/yanjiaqi/yanjiaqi/01-代码项目/MyCode/PrsAi_PPT_Translation_MCP/PrsAiPPT-MCP",
+        "/Users/gemii/project/01-代码项目/github/PrsAi_PPT_Translation_MCP/PrsAiPPT-MCP",
         "run",
         "prs-ai-ppt-mcp"
       ],

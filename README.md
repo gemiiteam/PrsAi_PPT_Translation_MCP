@@ -67,6 +67,37 @@ VERIFICATION_CODE=你的API_KEY python -m prs_ai_ppt_mcp
 VERIFICATION_CODE=你的API_KEY uv run mcp dev src/prs_ai_ppt_mcp/server.py
 ```
 
+## 接入 Trae (本地配置)
+
+要在 Trae 中使用此 MCP 服务器，您需要在 Trae 的 MCP 配置中添加以下内容。
+
+您可以直接在 Trae 中打开 **Settings** -> **MCP** -> **Add MCP Server** -> 选择 **Local MCP Server**，或者直接修改 Trae 的 MCP 配置文件。
+
+配置内容如下：
+
+```json
+{
+  "mcpServers": {
+    "prs-ai-ppt-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/yanjiaqi/yanjiaqi/01-代码项目/MyCode/PrsAi_PPT_Translation_MCP/PrsAiPPT-MCP",
+        "run",
+        "prs-ai-ppt-mcp"
+      ],
+      "env": {
+        "VERIFICATION_CODE": "请替换为您的真实API_KEY"
+      }
+    }
+  }
+}
+```
+
+> **注意**: 
+> 1. 请确保上述的 `--directory` 路径为本项目的真实绝对路径。如果您移动了项目文件夹，请相应更新此路径。
+> 2. 必须在 `env` 字段中正确配置 `VERIFICATION_CODE`，否则工具无法正常调用翻译和上传接口。
+
 ## 接入 Claude Desktop
 
 要让 Claude Desktop 能够调用此翻译工具，请修改它的配置文件（路径通常为 `~/Library/Application Support/Claude/claude_desktop_config.json` 或 `%APPDATA%/Claude/claude_desktop_config.json`）：

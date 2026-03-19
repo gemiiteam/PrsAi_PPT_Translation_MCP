@@ -27,6 +27,8 @@ def check_verification_code():
 async def check():
     """查询用户当前配置的 verification_code"""
     return os.getenv('VERIFICATION_CODE')
+
+
 #PPT 翻译
 @mcp.tool()
 async def translate_ppt(

@@ -9,6 +9,7 @@
 
 - **`translate_ppt`**: 核心工具。调用 PrsAi 接口，将指定的 PPT 文件翻译为目标语言（如中译英、英译中）。它会返回任务结果及拼接好的结果预览/下载地址。
 - **`check`**: 用于查询和确认当前配置的 `VERIFICATION_CODE` 环境变量。
+- **`upload_file`**: 用于上传本地文件到 PrsAi 服务器。
 
 ## 获取 VERIFICATION_CODE 方式
 

@@ -15,9 +15,8 @@
 
 ## 获取 VERIFICATION_CODE 方式
 
-1. 登录 PrsAi 官网（https://www.prsai.cc/）。
-2. 微信扫码入群，请求获取 VERIFICATION_CODE。<br>![2026_03_18_17_54_34](https://github.com/user-attachments/assets/456079e0-f091-4b5f-8d0e-d7d44fac66c6)
-3. 获取到 VERIFICATION_CODE 后，在系统中配置即可。
+1. 微信扫码入群，请求获取 VERIFICATION_CODE。<br>![2026_03_18_17_54_34](https://github.com/user-attachments/assets/456079e0-f091-4b5f-8d0e-d7d44fac66c6)
+2. 获取到 VERIFICATION_CODE 后，在系统中配置即可。
 
 
 ## 目录结构

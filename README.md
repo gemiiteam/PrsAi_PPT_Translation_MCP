@@ -1,8 +1,8 @@
-# PrsAiPPT-MCP
+# PrsAi_PPT_Translation_MCP
 <img width="400" height="100" alt="景栗科技 logo" src="https://github.com/user-attachments/assets/5ca675a0-6a27-48e6-b7b3-64eea5b7867f" />
 
+这是一个 MCP (Model Context Protocol) Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。我们提供了 **Python** 和 **Node.js** 两个版本的实现，您可以根据您的环境和喜好选择其中之一进行使用。
 
-这是一个基于 Python `mcp` SDK (`FastMCP`) 开发的 MCP Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。
 官网地址：https://mcp.prsai.cc/
 
 ## 提供的工具 (Tools)
@@ -15,7 +15,7 @@
 
 ## 获取 VERIFICATION_CODE 方式
 
-1. 微信扫码入群，请求获取 VERIFICATION_CODE。<br>![2026_03_18_17_54_34](https://github.com/user-attachments/assets/456079e0-f091-4b5f-8d0e-d7d44fac66c6)
+1. 登录 PrsAi 官网（https://mcp.prsai.cc/）。
 2. 获取到 VERIFICATION_CODE 后，在系统中配置即可。
 
 

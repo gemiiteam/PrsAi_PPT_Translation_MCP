@@ -1,7 +1,7 @@
 # PrsAiPPT-Node-MCP
 
 这是一个基于 Node.js `@modelcontextprotocol/sdk` 开发的 MCP Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。它是 `PrsAiPPT-MCP` (Python版) 的等效实现。
-官网地址：https://www.prsai.cc/
+官网地址：https://mcp.prsai.cc/
 
 ## 提供的工具 (Tools)
 
@@ -13,7 +13,7 @@
 
 ## 获取 VERIFICATION_CODE 方式
 
-1. 登录 PrsAi 官网（https://www.prsai.cc/）。
+1. 登录 PrsAi 官网（https://mcp.prsai.cc/）。
 2. 发送邮件至 xiulong.zhai@gemii.cc，请求获取 API Key。
 3. 邮件发送成功后1小时内等待回复。
 

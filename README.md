@@ -3,7 +3,7 @@
 
 
 这是一个基于 Python `mcp` SDK (`FastMCP`) 开发的 MCP Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。
-官网地址：https://www.prsai.cc/
+官网地址：https://mcp.prsai.cc/
 
 ## 提供的工具 (Tools)
 

@@ -1,9 +1,7 @@
 # PrsAiPPT-MCP
-<img width="400" height="100" alt="景栗科技 logo" src="https://github.com/user-attachments/assets/5ca675a0-6a27-48e6-b7b3-64eea5b7867f" />
-
 
 这是一个基于 Python `mcp` SDK (`FastMCP`) 开发的 MCP Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。
-官网地址：https://www.prsai.cc/
+官网地址：https://mcp.prsai.cc/
 
 ## 提供的工具 (Tools)
 
@@ -11,13 +9,13 @@
 
 - **`translate_ppt`**: 核心工具。调用 PrsAi 接口，将指定的 PPT 文件翻译为目标语言（如中译英、英译中）。它会返回任务结果及拼接好的结果预览/下载地址。
 - **`check`**: 用于查询和确认当前配置的 `VERIFICATION_CODE` 环境变量。
+- **`upload_file`**: 用于上传本地文件到 PrsAi 服务器。
 
 ## 获取 VERIFICATION_CODE 方式
 
-1. 登录 PrsAi 官网（https://www.prsai.cc/）。
-2. 微信扫码入群，请求获取 VERIFICATION_CODE。<br>![2026_03_18_17_54_34](https://github.com/user-attachments/assets/456079e0-f091-4b5f-8d0e-d7d44fac66c6)
-3. 获取到 VERIFICATION_CODE 后，在系统中配置即可。
-
+1. 登录 PrsAi 官网（https://mcp.prsai.cc/）。
+2. 发送邮件至 xiulong.zhai@gemii.cc，请求获取 API Key。
+3. 邮件发送成功后1小时内等待回复。
 
 ## 目录结构
 

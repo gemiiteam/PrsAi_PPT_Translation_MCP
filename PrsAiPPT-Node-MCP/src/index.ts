@@ -7,7 +7,7 @@ import fs from "fs";
 import path from "path";
 import mime from "mime-types";
 
-const API_BASE = "https://www.prsai.cc";
+const API_BASE = "https://mcp.prsai.cc";
 const VERIFICATION_CODE = process.env.VERIFICATION_CODE;
 
 // Helper to check for VERIFICATION_CODE
@@ -58,10 +58,10 @@ server.registerTool(
       'accept-language': 'zh-CN,zh;q=0.9',
       'cache-control': 'no-cache',
       'content-type': 'application/json',
-      'origin': 'https://www.prsai.cc',
+      'origin': 'https://mcp.prsai.cc',
       'pragma': 'no-cache',
       'priority': 'u=1, i',
-      'referer': 'https://www.prsai.cc/',
+      'referer': 'https://mcp.prsai.cc/',
       'sec-ch-ua': '"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"',
       'sec-ch-ua-mobile': '?0',
       'sec-ch-ua-platform': '"macOS"',
@@ -95,9 +95,9 @@ server.registerTool(
 
       // Build output_url
       if (task_id) {
-        res.output_url = `https://www.prsai.cc/?task_id=${task_id}`;
+        res.output_url = `https://mcp.prsai.cc/?task_id=${task_id}`;
       } else {
-        res.output_url = "https://www.prsai.cc/?task_id=";
+        res.output_url = "https://mcp.prsai.cc/?task_id=";
       }
 
       return {
@@ -139,7 +139,7 @@ server.registerTool(
     
     const headers = {
       'accept': 'application/json, text/plain, */*',
-      'referer': 'https://www.prsai.cc/',
+      'referer': 'https://mcp.prsai.cc/',
       'sec-ch-ua': '"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"',
       'sec-ch-ua-mobile': '?0',
       'sec-ch-ua-platform': '"macOS"',

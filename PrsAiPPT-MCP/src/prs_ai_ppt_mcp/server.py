@@ -15,7 +15,7 @@ mcp = FastMCP("PrsAiPPT MCP Server", log_level="INFO")
 
 # 用户API Key，这里对应接口中的 verification_code
 VERIFICATION_CODE = os.getenv('VERIFICATION_CODE')
-API_BASE = "https://www.prsai.cc"
+API_BASE = "https://mcp.prsai.cc"
 
 def check_verification_code():
     """检查 VERIFICATION_CODE 是否已设置"""
@@ -59,10 +59,10 @@ async def translate_ppt(
         'accept-language': 'zh-CN,zh;q=0.9',
         'cache-control': 'no-cache',
         'content-type': 'application/json',
-        'origin': 'https://www.prsai.cc',
+        'origin': 'https://mcp.prsai.cc',
         'pragma': 'no-cache',
         'priority': 'u=1, i',
-        'referer': 'https://www.prsai.cc/',
+        'referer': 'https://mcp.prsai.cc/',
         'sec-ch-ua': '"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"macOS"',
@@ -100,10 +100,10 @@ async def translate_ppt(
             
         # 构建 output_url 并加入到结果中
         if task_id:
-            res['output_url'] = f"https://www.prsai.cc/?task_id={task_id}"
+            res['output_url'] = f"https://mcp.prsai.cc/?task_id={task_id}"
         else:
             # 容错处理
-            res['output_url'] = "https://www.prsai.cc/?task_id="
+            res['output_url'] = "https://mcp.prsai.cc/?task_id="
             
         return res
         
@@ -146,7 +146,7 @@ async def upload_file(
     
     headers = {
         'accept': 'application/json, text/plain, */*',
-        'referer': 'https://www.prsai.cc/',
+        'referer': 'https://mcp.prsai.cc/',
         'sec-ch-ua': '"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"macOS"',

@@ -1,9 +1,10 @@
-# PrsAi_PPT_Translation_MCP
+# PrsAi\_PPT\_Translation\_MCP
+
 <img width="400" height="100" alt="景栗科技 logo" src="https://github.com/user-attachments/assets/5ca675a0-6a27-48e6-b7b3-64eea5b7867f" />
 
 这是一个 MCP (Model Context Protocol) Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。我们提供了 **Python** 和 **Node.js** 两个版本的实现，您可以根据您的环境和喜好选择其中之一进行使用。
 
-官网地址：https://mcp.prsai.cc/
+官网地址：<https://mcp.prsai.cc/>
 
 ## 提供的工具 (Tools)
 
@@ -13,11 +14,10 @@
 - **`check`**: 用于查询和确认当前配置的 `VERIFICATION_CODE` 环境变量。
 - **`upload_file`**: 用于上传本地文件到 PrsAi 服务器。
 
-## 获取 VERIFICATION_CODE 方式
+## 获取 VERIFICATION\_CODE 方式
 
-1. 登录 PrsAi 官网（https://mcp.prsai.cc/）。
-2. 获取到 VERIFICATION_CODE 后，在系统中配置即可。
-
+1. 登录 PrsAi 官网 ：  [https://mcp.prsai.cc](https://mcp.prsai.cc/）。)
+2. 获取到 VERIFICATION\_CODE 后，在系统中配置即可。
 
 ## 目录结构
 
@@ -94,7 +94,8 @@ VERIFICATION_CODE=你的API_KEY uv run mcp dev src/prs_ai_ppt_mcp/server.py
 }
 ```
 
-> **注意**: 
+> **注意**:
+>
 > 1. 请确保上述的 `--directory` 路径为本项目的真实绝对路径。如果您移动了项目文件夹，请相应更新此路径。
 > 2. 必须在 `env` 字段中正确配置 `VERIFICATION_CODE`，否则工具无法正常调用翻译和上传接口。
 
@@ -121,6 +122,8 @@ VERIFICATION_CODE=你的API_KEY uv run mcp dev src/prs_ai_ppt_mcp/server.py
 }
 ```
 
-> **注意**: 
+> **注意**:
+>
 > 1. 请确保替换上述的 `--directory` 路径为本项目的绝对路径。
 > 2. 必须在 `env` 字段中正确配置 `VERIFICATION_CODE`，否则工具无法正常工作。
+

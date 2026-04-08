@@ -1,0 +1,19 @@
+[project]
+name = "prs-ai-staging-mcp"
+version = "0.1.0"
+description = "MCP server for PrsAi staging file upload and PPT translation tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]",
+    "httpx",
+    "pydantic",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+prs-ai-staging-mcp = "prs_ai_staging_mcp.__main__:main"
+

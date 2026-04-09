@@ -1,6 +1,5 @@
 # PrsAi\_PPT\_Translation\_MCP
 
-<img width="400" height="100" alt="景栗科技 logo" src="https://github.com/user-attachments/assets/5ca675a0-6a27-48e6-b7b3-64eea5b7867f" />
 
 这是一个 MCP (Model Context Protocol) Server 项目，专门用于提供 PrsAi 智能 PPT 翻译功能。我们提供了 **Python** 和 **Node.js** 两个版本的实现，您可以根据您的环境和喜好选择其中之一进行使用。
 
